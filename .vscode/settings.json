@@ -1,0 +1,15 @@
+{
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "workbench.colorTheme": "One Dark Pro",
+  "files.autoSave": "afterDelay",
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.quoteStyle": "single",
+  "editor.tabSize": 2,
+  "javascript.format.semicolons": "insert",
+  "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit"
+  },
+  "editor.formatOnSave": true,
+  "html.completion.attributeDefaultValue": "singlequotes",
+  "files.trimTrailingWhitespace": true
+}
