@@ -88,12 +88,7 @@ declare type CreateTransactionParams = {
   createdAt: Date;
 };
 
-declare type TransformationTypeKey =
-  | "restore"
-  | "fill"
-  | "remove"
-  | "recolor"
-  | "removeBackground";
+declare type TransformationTypeKey = 'restore' | 'fill' | 'remove' | 'recolor' | 'removeBackground';
 
 // ====== URL QUERY PARAMS
 declare type FormUrlQueryParams = {
@@ -119,7 +114,7 @@ declare type SearchParamProps = {
 };
 
 declare type TransformationFormProps = {
-  action: "Add" | "Update";
+  action: 'Add' | 'Update';
   userId: string;
   type: TransformationTypeKey;
   creditBalance: number;

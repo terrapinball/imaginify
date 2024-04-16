@@ -10,7 +10,8 @@
     "eslint:recommended",
     "plugin:react/recommended",
     "plugin:react/jsx-runtime",
-    "plugin:react-hooks/recommended"
+    "plugin:react-hooks/recommended",
+    "prettier"
   ],
   "ignorePatterns": ["dist", ".eslintrc.cjs"],
   "parserOptions": {
@@ -34,14 +35,9 @@
       }
     ],
     "jsx-quotes": ["error", "prefer-double"],
-    "quotes": [
-      "error",
-      "single",
-      {
-        "avoidEscape": true,
-        "allowTemplateLiterals": true
-      }
-    ],
+    "semi": [2, "always"],
+    "no-irregular-whitespace": 2,
+    "quotes": "off",
     "react/no-unknown-property": ["off"]
   }
 }
