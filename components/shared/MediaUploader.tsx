@@ -48,7 +48,7 @@ const MediaUploader = ({ onValueChange, setImage, image, publicId, type }: Media
 
   return (
     <CldUploadWidget
-      uploadPreset="jsm_imaginify"
+      uploadPreset="imaginify"
       options={{
         multiple: false,
         resourceType: 'image'
